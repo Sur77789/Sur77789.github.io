@@ -4,8 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>现代登录界面 | by 忠宝</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <div class="login-card">
+        <div class="column"></div>
+        <h1>登录</h1>
+        <p>登陆后，你可以享受各种优惠</p>
+        <form>
+            <div class="form-item">
+                <input type="text" class="form-element" placeholder="用户名或者邮箱">
+            </div>
+            <div class="form-item">
+                <input type="密码" class="form-element" placeholder="密码">
+            </div>
+            <div class="form-checkbox-item">
+                <input type="checkbox" id="记住我" checked>
+                <label for="记住我">记住我</label>
+            </div>
+            <div class="flex">
+                <button type="button">登录</button>
+                <a href="#">立即重置密码</a>
+            </div>
+            <p style="margin-top:3rem;margin-bottom:1.5rem">其他登录方式</p>
+            <div class="social-buttons">
+                <a href="#" class="微博"></a>
+                <a href="#" class="微信"></a>
+                <a href="#" class="QQ"></a>
+            </div>
+        </form>
+        <div class="column"></div>
+        <h2>欢迎使用</h2>
+        <p>如果您没有账户，你想现在注册吗？</p>
+        <a href="#">注册</a>
+    </div>
 </body>
 </html>
